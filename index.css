@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Fraunces');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=NewsGoth');
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav{
+	background-color: white;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+#navbar .brand-logo{
+	/* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+	font-size: 60px;
+	font-weight: normal;
+	color: #000;
+	padding-left: 40px !important;
+    /* padding-top: 40px; */
+}
+
+#navbar li a{
+	/* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+	font-size: 25px;
+    color: #8f8f8f;
+    letter-spacing: 3px;
+}
+
+#navbar .active{
+    color: #000;
+    background-color: transparent;
+}
+
+#navbar li a:hover{
+    color: #000;
+    background-color: transparent;
+}
+
+i{
+    color: black;
+}
+
+#mobile-demo{
+    background-color: white;
+    color: #8f8f8f;
+    font-family: 'Fundamental Rush';
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+  
+  #mobile-demo a:hover{
+    color: black;
+  }
+
+.space{
+	height: 140px;
+}
+
+.space2{
+    height: 280px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.container p{
+    font-family: 'Fraunces';
+    font-size: 15px;
+    color: #191919;
+}
+
+.container p a{
+    font-family: 'Fraunces';
+    font-size: 15px;
+    color: #191919;
+    text-decoration: underline;
+}
+
+.title{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    /* font-weight: bolder; */
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.title2{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.title3{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.title4{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.subtitle{
+    font-size: 28px;
+    text-align: center;
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    color: #191919;
+    letter-spacing: 2px;
+    /* font-style: italic; */
+    align-self: center;
+}
+
+.container span, .container p{
+    color: #000;
+}
+
+.container ul li{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    font-size: 28px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+.container p.desc{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Fraunces';
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container .about{
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Fraunces';
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Fira Sans';
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container ul li p{
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Fraunces';
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container ul li p.text{
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Fraunces';
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container ul li p a{
+    font-size: 15px;
+    text-align: justify;
+    /* font-family: 'Fraunces'; */
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+  }

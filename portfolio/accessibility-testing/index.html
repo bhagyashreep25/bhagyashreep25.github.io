@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Accessibility Testing - Bhagyashree Phadnis</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../../index.css">
+		<!--Import Google Icon Font-->
+      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<!--Import materialize.css-->
+      	<link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/>
+    	<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript" src="../../js/materialize.min.js"></script>
+    
+		<script src="index.js" async defer></script>
+		<script>
+			$(document).ready(function(){
+    			$('.sidenav').sidenav();
+				$('.button-collapse').sideNav();
+  			});
+
+		</script>
+
+		<!-- navbar -->
+		<!-- <div class="container"> -->
+			<div class="navbar-fixed" id="navbar">
+			<nav class="transparent z-depth-0">
+				<div class="nav-wrapper col s12">
+				<a href="../../" class="brand-logo">
+					<!-- B. -->
+					<img src="../../images/logo.png" alt="" width="8%">
+				</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<!-- <li><a href="../../portfolio/" class="active">PORTFOLIO</a></li>
+					<li><a href="../../resume/">RESUME</a></li>
+					<li><a href="../../about/">ABOUT</a></li> -->
+					<li><a href="../../portfolio/" class="active">portfolio</a></li>
+					<li><a href="../../resume/">resume</a></li>
+					<li><a href="../../about/">about</a></li>
+					<!-- <li><a href="../../photography/">PHOTOGRAPHY</a></li> -->
+				</ul>
+				</div>
+			</nav>
+        </div>
+		<!-- </div> -->
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="../../portfolio/" class="active">portfolio</a></li>
+			<li><a href="../../resume/">resume</a></li>
+			<li><a href="../../about/">about</a></li>
+			<!-- <li><a href="../../photography/">PHOTOGRAPHY</a></li> -->
+  		</ul>
+		
+
+		<!-- main content -->
+		<div class="container"><br><br><br><br>
+			<!-- <span class="title">ACESSIBILITY TESTING</span> -->
+			<span class="title">accessibility testing</span>
+			<p class="text"></p>
+			<ul>
+				<!-- <li>OVERVIEW<br> -->
+				<li>overview<br>
+					<p class="text">
+						The <a href="https://trip-planner.visitfinland.com/trip/7-days-in-finnish-archipelago-itinerary-in-january-5678de32-b082-4f99-be53-b187cf76c41a">‘Route Page’</a> of the trip planner embedded in the travel website <a href="https://visitfinland.com">‘VisitFinland’</a> is the first page users encounter when they start planning their trip. This page points them in the direction of useful links and information so that they customize their trip according to their tastes. It is a very crucial part of their experience with the entire system and therefore, I specifically chose to evaluate the accessibility of this particular web page.
+					</p>
+					<p class="info">
+						<span class="title3">client: </span>Graduate Course
+						<br><span class="title3">when: </span>Dec 2021
+						<br><span class="title3">role: </span>UX Researcher
+						<br><span class="title3">methods: </span>Manual Accessibility Inspection, Automated Accessibilty Evaluation Tool
+						<br><span class="title3">tools: </span>Google Chrome Version 96.0.4664.93, VoiceOver Version 10 (804), WAVE Chrome Extension, Figma
+					</p>
+				</li>
+				<li><br>
+					<span class="subtitle">
+						<!-- DOES THE ROUTE PAGE MEET THE USER'S ACCESSIBILITY NEEDS? -->
+						does the route page meet the user's accessibility needs?
+					</span>
+					<p class="text">
+						To answer this question, I performed manual and automated accessibility evaluations. For the manual evaluation, I employed the <a href="https://www.w3.org/TR/WCAG21/" class="href">Web Content Accessibility Guidelines (WCAG) 2.1</a>, which are based on the four principles: Perceivable, Operable, Understandable and Robust. Following through, I further evaluated the accessibility using <a href="https://wave.webaim.org/">WAVE's Chrome Extension</a>. This tool directly evaluated the accessibility right in the browser.
+					</p>
+				</li>
+				<li><br>
+					<!-- TOP ACCESSIBILITY ISSUES -->
+					top accessibility issues
+					<br>
+					<span class="title4">
+						<!-- MISSING LABEL FOR SEARCH INPUT FIELD -->
+						missing label for search input field
+					</span><br><br>
+					<div class="row" style="text-align: center;">
+						<img src="../../images/accessibility-testing/1 B.png" alt="" width="75%">
+					</div>
+					<p class="text">
+						The search bar at the top of the page does not have a label and therefore is inaccessible. This is an important feature and adds to the usability of the system tremendously. It allows users to look for activities they might be interested in and places they would like to explore. It is the starting point for users that want to customize their itinerary.	
+					</p>
+					<br>
+					<span class="title4">
+						<!-- DROPDOWN CONTENT NOT ACCESSIBLE -->
+						dropdown content not accessible
+					</span><br><br>
+					<div class="row" style="text-align: center;">
+						<img src="../../images/accessibility-testing/2 B.png" alt="" width="75%">
+					</div>
+					<p class="text">
+						The ‘Day by day’ element on the trip navigation bar has a dropdown menu that is visible when users hover over the down arrow. The ‘Day by day’ views are robust and they display important information about the trip. It also has options to allow users to customize their trips. They offer a high-level overview of the trip in a way that is easy to understand. As this dropdown is currently inaccessible, the users are deprived of valuable information.	
+					</p>
+					<br>
+					<span class="title4">
+						<!-- LINK PURPOSE NOT IDENTIFIED IN CARD MAIN CONTENT -->
+						link purpose not identified in card main content
+					</span><br><br>
+					<div class="row" style="text-align: center;">
+						<img src="../../images/accessibility-testing/3 B.png" alt="" width="75%">
+					</div>
+					<p class="text">
+						Each of the above elements is a link but they are not accessible currently. These links are extremely useful when the user is just beginning to explore their itinerary. It redirects them to fun activities that could make their trip very memorable. This improvement has the potential to drastically improve the user experience.	
+					</p>
+				</li>
+				<li><br>
+					<!-- SUGGESTED IMPROVEMENTS -->
+					suggested improvements
+					<br>
+					<span class="title4">
+						<!-- ADDING A LABEL FOR THE SEARCH INPUT FIELD -->
+						adding a label for search input field
+					</span>
+					<p class="text">
+						This violation can be fixed by adding a label to the input field. In this way, the search bar can be made accessible.	
+					</p>
+					<div class="row" style="text-align: center;">
+						<img src="../../images/accessibility-testing/1 A 1.png" alt="" width="50%">
+					</div>
+					<p class="text">
+						Since, as shown in the image above, the input field has an ‘id’ attribute, the label can be added as follows:
+					</p>
+					<div class="row" style="text-align: center;">
+						<img src="../../images/accessibility-testing/1 A 2.png" alt="" width="60%">
+					</div>
+					<br>
+					<span class="title4">
+						<!-- UPDATING DROPDOWN MENU AS LINKS -->
+						updating dropdown menu as links
+					</span>
+					<p class="text">
+						This error can be overcome by indicating that the dropdown menu exists. This can be achieved by making it into a link. The ‘href’ attribute for the link will contain the id of the ‘div’ element that will be visible when users click on the link.
+					</p>
+					<div class="row" style="text-align: center;">
+						<img src="../../images/accessibility-testing/2 A.png" alt="" width="45%">
+					</div>
+					<br>
+					<span class="title4">
+						<!-- MAKING LINKS ACCESSIBLE -->
+						making links accessible
+					</span><br><br>
+					<div class="row" style="text-align: center;">
+						<img src="../../images/accessibility-testing/3 A 1.png" alt="" width="45%">
+					</div>
+					<p class="text">
+						These links can be made accessible by declaring them as links using the ‘a’ tag in HTML, instead of ‘span’, as visible in the image above.
+					</p>
+					<div class="row" style="text-align: center;">
+						<img src="../../images/accessibility-testing/3 A 2.png" alt="" width="50%">
+					</div>
+				</li>
+				<li><br>
+					<!-- RETROSPECTIVE -->
+					retrospective
+					<br>
+					<span class="title4">
+						<!-- MOST LINKS ON ROUTE PAGE ARE INACCESSIBLE -->
+						most links on route page are inaccessible
+					</span>
+					<p class="text">
+						The Route page meets most accessibility standards except for the links, most of which are either inaccessible or fail to convey their purpose. Apart from links, a couple of images lack alt-text and a couple of links are empty.
+					</p>
+					<spn class="title4">
+						<!-- MANUAL INSPECTION VS. AUTOMATED SCAN -->
+						manual inspection vs. automated scan
+					</spn>
+					<p class="text">
+						The automated testing works best in scenarios where you’re looking to double-check things or when you have content that is a mix of fixed components. However, in cases where the code is alien and the tester has no knowledge of whether the correct HTML tags are used; manual inspection can find such deeper issues that can significantly improve accessibility.
+					</p>
+				</li>
+			</ul>
+		</div>
+
+		<!-- footer -->
+		<div class="space"></div>
+		<div class="footer">
+			<div class="row container">
+				<a href="mailto:bagsphadnis@gmail.com" target="blank" style="padding: 10px">
+					<img src="../../images/email.png" alt="" width="2.5%">
+				</a>
+				<a href="https://www.linkedin.com/in/bhagyashree-phadnis-3b04411a0/" target="blank" style="padding: 10px">
+					<img src="../../images/linkedin.png" alt="" width="2.5%">
+				</a>
+				<a href="https://github.com/bhagyashreep25/" target="blank" style="padding: 10px">
+					<img src="../../images/github.svg" alt="" width="2.5%">
+				</a>
+				<a href="https://www.instagram.com/bhagyashreephadnis_/" target="blank" style="padding: 10px">
+					<img src="../../images/instagram.png" alt="" width="2.5%">
+				</a>
+				<div class="row" style="text-align: center;">
+					<p class="text">Designed and Built by Bhagyashree Phadnis&nbsp;
+						<img src="../../images/copyright.jpeg" alt="" width="1.5%">
+						&nbsp;2022
+				</p>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
