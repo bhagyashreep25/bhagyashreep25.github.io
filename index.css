@@ -1,25 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Fraunces');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
-body{
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
 nav{
-	background-color: white;
     padding-top: 30px;
     padding-right: 30px;
+    padding-left: 40px;
+    height: 80px !important;
+    /* line-height: 100px; */
 }
 
 #navbar .brand-logo{
 	/* font-family: 'Warsaw Gothic'; */
     /* font-family: 'Fundamental Rush'; */
-	font-size: 60px;
+	/* font-size: 60px; */
+    font-size: 1.6rem;
 	font-weight: normal;
 	color: #000;
-	padding-left: 40px !important;
+	/* padding-left: 40px !important; */
     /* padding-top: 40px; */
 }
 
@@ -34,7 +31,7 @@ nav{
 
 #navbar .active{
     color: #000;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 
 #navbar li a:hover{
@@ -199,6 +196,6 @@ i{
     text-decoration: underline;
 }
 
-.footer {
+.footer{
     text-align: center;
-  }
+}
