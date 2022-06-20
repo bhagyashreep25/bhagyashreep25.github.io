@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fraunces');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+@import url('https://fonts.googleapis.com/css?family=Graphik');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('files/fonts/Shorelines\ Script\ Bold.otf');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 nav{
     padding-top: 30px;
@@ -164,6 +170,78 @@ i{
     font-size: 35px;
     text-align: justify;
     font-family: 'Fira Sans';
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo2{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Founders Grotesk';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo3{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Overpass Mono';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo4{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Graphik';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo5{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo6{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Shorelines Script Bold';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo7{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Fraunces';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo8{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo9{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: 100;
     color: #191919;
     letter-spacing: 0px;
 }

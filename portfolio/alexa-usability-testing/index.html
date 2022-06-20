@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Alexa Usability Testing - Bhagyashree Phadnis</title>
+		<meta name="description" content="Hello, I'm Bhagyashree! I'm a UX Designer fuelled by art and driven by people and technology.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel = "icon" href = "../../files/logo.png" type = "image/x-icon">
+		<link rel="stylesheet" href="../../index.css">
+		<!--Import Google Icon Font-->
+      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<!--Import materialize.css-->
+      	<link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/>
+    	<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript" src="../../js/materialize.min.js"></script>
+    
+		<script src="index.js" async defer></script>
+		<script>
+			$(document).ready(function(){
+    			$('.sidenav').sidenav();
+				$('.button-collapse').sideNav();
+  			});
+
+		</script>
+
+		<!-- navbar -->
+		<!-- <div class="container"> -->
+			<div class="navbar" id="navbar">
+			<nav class="white z-depth-0">
+				<div class="nav-wrapper col s12">
+				<a href="../../" class="brand-logo">
+					<!-- B. -->
+					<img src="../../files/logo.png" alt="" width="8%" class="image show-on-large hide-on-med-and-down">
+					<img src="../../files/logo.png" alt="" width="30%" class="image hide-on-large-only show-on-medium-and-down" style="margin: auto;">
+				</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<!-- <li><a href="../../portfolio/" class="active">PORTFOLIO</a></li>
+					<li><a href="../../resume/">RESUME</a></li>
+					<li><a href="../../about/">ABOUT</a></li> -->
+					<li><a href="../../portfolio/" class="active">portfolio</a></li>
+					<li><a href="../../files/Bhagyashree Phadnis Resume.pdf" target="blank">resume</a></li>
+					<li><a href="../../about/">about</a></li>
+					<!-- <li><a href="../../photography/">PHOTOGRAPHY</a></li> -->
+				</ul>
+				</div>
+			</nav>
+        </div>
+		<!-- </div> -->
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="../../portfolio/" class="active">portfolio</a></li>
+			<li><a href="../../files/Bhagyashree Phadnis Resume.pdf" target="blank">resume</a></li>
+			<li><a href="../../about/">about</a></li>
+			<!-- <li><a href="../../photography/">PHOTOGRAPHY</a></li> -->
+  		</ul>
+		
+
+		<!-- main content -->
+		<div class="container"><br><br><br><br>
+			<span class="title">
+				<!-- USABILITY TESTING -->
+				amazon alexa - usability testing
+			</span>
+			<p class="text"></p>
+			<ul>
+				<li>
+					<div class="row" style="text-align: center;">
+						<img src="../../files/alexa/Alexa-App-1.png" alt="" width="40%">
+					</div>
+				</li>
+				<li>
+					<!-- OVERVIEW -->
+					overview
+					<br>
+					<p class="text">
+						Alexa is a virtual voice assistant owned by Amazon. It has diverse features to offer such as music playback, to-do lists, setting alarms, providing weather, creating a shopping list, etc. VUIs have started helping the user off-load their memory and automate basic tasks by giving voice instructions. The challenge with VUI is that, unlike graphical user interfaces that set visual and mechanical constraints for user interactions, the voice interface does not have a machine-friendly framework under which the interactions would happen. Rather the framework is driven by the rules of language and we are training the machine to read natural language. With the Alexa mobile app (VUI + app UI), I wanted to evaluate how the user navigates between the voice assistant and the mobile app itself. Investigate how both interactive UIs work together or have discrepancies that confuse the user.
+					</p>
+					<p class="info">
+						<span class="title3">client: </span>Graduate Course
+						<br><span class="title3">when: </span>Feb-May 2022
+						<br><span class="title3">role: </span>UX Researcher on a team of three
+						<br><span class="title3">Process: </span>Heuristic Review, Persona Development, Task Analysis, Paths & Scenarios, Test Plan, Usability Testing, Analysis
+						<br><span class="title3">tools: </span>Figma, Google Suite
+					</p>
+				</li>
+				<li><br>
+					heuristic review
+					<br><br>
+					<div class="row" style="text-align: left;">
+						<img src="../../files/alexa/heuristic review.png" alt="" width="90%">
+					</div>
+				</li>
+				<li><br>
+					persona
+					<br>
+					<p class="text">
+						I created a persona that depicts a typical archetype of the average user. It allowed me to think of how Alexa would be used and how it fits into the life of the primary user. It also served as an opportunity to do research on Alexa's target audience and better conduct the testing.
+					</p>
+					<br>
+					<div class="row" style="text-align: center;">
+						<img src="../../files/alexa/persona.png" alt="" width="60%">
+					</div>
+				</li><br>
+				<li><br>
+					task analysis
+					<p class="text">
+						I defined a set of tasks and categorized them further into sub-tasks by performing an analysis of the various skills offered by Alexa. I then dived deep into each of them to find out the common sub-tasks or individual commands that triggered a basic action. This also indicated what potential tasks could be included in the test plan in consideration of the persona.
+					</p>
+					<div class="row" style="text-align: center;">
+						<img src="../../files/alexa/task analysis.png" alt="" width="90%">
+					</div>
+				</li>
+				<li><br>
+					path analysis
+					<p class="text">
+						I identified and listed the multiple ways to complete the tasks identified previously. I then created scenarios to determine the flow of tasks and how each of the different skills would interleave for the duration of the test. This allowed me to progress from research to execution of the usability test.
+					</p>
+					<!-- <div class="row" style="text-align: center;">
+						<img src="../../files/alexa/paths and scenarios.png" alt="" width="100%">
+					</div> -->
+				</li>
+				<li><br>
+					test plan
+					<br>
+					<p class="text">
+						I combined the list of tasks using scenarios that interleave them into a test plan. I added some ice breaker questions, follow up questions and concluding questions to develop a framework that can be used while testing. It acted as the main reference document to be referred to while planning the logistics of the test. This plan also gave an opportunity to execute a dry run of the test and refine it. That ensured that the flow is smooth and the test is within the desired time constraints.
+					</p>
+				</li>
+				<li><br>
+					prioritized recommendations
+					<br><br>
+					<div class="row" style="text-align: left;">
+						<img src="../../files/alexa/analysis 1.png" alt="" width="80%">
+					</div>
+					<br>
+					<div class="row" style="text-align: right;">
+						<img src="../../files/alexa/analysis 2.png" alt="" width="80%">
+					</div>
+					<br>
+					<div class="row" style="text-align: left;">
+						<img src="../../files/alexa/analysis 3.png" alt="" width="80%">
+					</div>
+				</li>
+				<br><br><br><br><br>
+			</ul>
+		</div>
+
+		<!-- footer -->
+		<div class="footer show-on-large hide-on-med-and-down">
+			<div class="row container">
+				<a href="mailto:bagsphadnis@gmail.com" target="blank" style="padding: 10px">
+					<img src="../../files/email.png" alt="" width="4%">
+				</a>
+				<a href="https://www.linkedin.com/in/bhagyashree-phadnis-3b04411a0/" target="blank" style="padding: 10px">
+					<img src="../../files/linkedin.png" alt="" width="4%">
+				</a>
+				<a href="https://github.com/bhagyashreep25/" target="blank" style="padding: 10px">
+					<img src="../../files/github.svg" alt="" width="4%">
+				</a>
+				<a href="https://www.instagram.com/bhagyashreephadnis_/" target="blank" style="padding: 10px">
+					<img src="../../files/instagram.png" alt="" width="4%">
+				</a>
+				<div class="row" style="text-align: center;">
+					<p class="text">Designed and Built by Bhagyashree Phadnis&nbsp;
+						<img src="../../files/copyright.jpeg" alt="" width="1.5%">
+						&nbsp;2022
+				</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- mobile footer -->
+		<div class="space"></div>
+		<div class="footer hide-on-large-only show-on-medium-and-down">
+			<div class="row container">
+				<a href="mailto:bagsphadnis@gmail.com" target="blank" style="padding: 10px">
+					<img src="../../files/email.png" alt="" width="8%">
+				</a>
+				<a href="https://www.linkedin.com/in/bhagyashree-phadnis/" target="blank" style="padding: 10px">
+					<img src="../../files/linkedin.png" alt="" width="8%">
+				</a>
+				<a href="https://github.com/bhagyashreep25/" target="blank" style="padding: 10px">
+					<img src="../../files/github.svg" alt="" width="8%">
+				</a>
+				<a href="https://www.instagram.com/bhagyashreephadnis_/" target="blank" style="padding: 10px">
+					<img src="../../files/instagram.png" alt="" width="8%">
+				</a>
+				<div class="row" style="text-align: center;">
+					<p class="text">Designed and Built by Bhagyashree Phadnis&nbsp;
+						<img src="../../files/copyright.jpeg" alt="" width="4%">
+						&nbsp;2022
+				</p>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
