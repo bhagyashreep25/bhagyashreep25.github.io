@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Fraunces');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+@import url('https://fonts.googleapis.com/css?family=Graphik');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('files/fonts/Shorelines\ Script\ Bold.otf');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+nav{
+    padding-top: 20px;
+    /* padding-right: 30px; */
+    /* padding-left: 40px; */
+    height: 80px !important;
+    /* line-height: 100px; */
+}
+
+#navbar .brand-logo{
+	/* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+	font-size: 50px;
+    font-family: 'Inter';
+    /* font-size: 1.6rem; */
+	font-weight: normal;
+	color: #000;
+	/* padding-left: 40px !important; */
+    /* padding-top: 40px; */
+}
+
+#navbar li a{
+	/* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    /* font-family: 'Fraunces'; */
+    font-family: 'Inter';
+	font-size: 15px;
+    color: #8f8f8f;
+    letter-spacing: 1px;
+}
+
+#navbar .active{
+    color: #000;
+    /* background-color: transparent; */
+}
+
+#navbar li a:hover{
+    color: #000;
+    background-color: transparent;
+}
+
+i{
+    color: black;
+}
+
+#mobile-demo{
+    background-color: white;
+    color: #8f8f8f;
+    /* font-family: 'Fundamental Rush'; */
+    /* font-family: 'Fraunces'; */
+    font-family: 'Inter';
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+  
+  #mobile-demo a:hover{
+    color: black;
+  }
+
+  #fix, .console-underscore{
+	font-family: 'DM Mono';
+  font-size: 3em;
+}
+#text-1, #text-2{
+	font-family: 'DM Mono';
+  font-size: 30px;
+}
+  .console-underscore {
+    display:inline-block;
+   position:relative;
+   top:-0.14em;
+   /* left:10px; */
+   color: dodgerblue;
+ }
+
+.space{
+	height: 140px;
+}
+
+.space2{
+    height: 150px;
+}
+
+.space3{
+    height: 90px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.container p{  
+    /* font-family: 'Fraunces'; */
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #191919;
+}
+
+.container p a{
+    font-family: 'Fraunces';
+    font-size: 16px;
+    color: #191919;
+    text-decoration: underline;
+}
+
+.projects{
+    /* background-image: url('files/Slide\ 16_9\ -\ 1.png'); */
+    /* width: 100%; */
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: bold;
+    /* color: #1e90ff; */
+}
+
+.title{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    /* font-family: 'Fraunces'; */
+    /* font-family: 'DM Mono'; */
+    font-family: 'Inter';
+    /* font-weight: bolder; */
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #6d6d6d;
+}
+
+.title-name{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    /* font-family: 'Fraunces'; */
+    /* font-family: 'DM Mono'; */
+    font-family: 'Inter';
+    /* font-weight: bolder; */
+    font-size: 35px;
+    letter-spacing: -1px;
+}
+
+.box-text{
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.design-ideas-title{
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.design-ideas-text{
+    font-family: 'Inter';
+    font-size: 15px;
+}
+
+.title2{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.title3{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.title4{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.subtitle{
+    font-size: 28px;
+    text-align: center;
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    color: #191919;
+    letter-spacing: 2px;
+    /* font-style: italic; */
+    align-self: center;
+}
+
+.container span, .container p{
+    color: #000;
+}
+
+.container ul li{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    font-family: 'Fraunces';
+    font-size: 28px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+.container p.desc{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Fraunces';
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container .about{
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Inter';
+    /* font-family: 'Fraunces'; */
+    /* font-family: 'NewsGoth BT'; */
+    color: #5d5d5d;
+    letter-spacing: 0px;
+}
+
+.container p.logo{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Fira Sans';
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo2{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Founders Grotesk';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo3{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Overpass Mono';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo4{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Graphik';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo5{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo6{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Shorelines Script Bold';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo7{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Fraunces';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo8{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container p.logo9{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container ul li p{
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Fraunces';
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container ul li p.text{
+    font-size: 16px;
+    text-align: justify;
+    /* font-family: 'Fraunces'; */
+    font-family: 'Inter';
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+}
+
+.container ul li p a{
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Fraunces';
+    /* font-family: 'NewsGoth BT'; */
+    color: #191919;
+    letter-spacing: 0px;
+    text-decoration: underline;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.header .col {
+    /* position: relative; */
+    vertical-align: bottom;
+    /* bottom: 0; */
+    display: table-cell;
+}
+
+/* .btn{
+    background-color: #000 !important;
+    border-radius: 20px !important;
+    box-shadow: 0px;
+    font-family: 'Fraunces';
+    font-size: 15px !important;
+    text-transform: unset !important;
+    height: 45px !important;
+    width: 180px !important;
+    text-align: center;
+    vertical-align: middle !important;
+} */
