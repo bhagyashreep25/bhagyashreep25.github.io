@@ -134,6 +134,11 @@ i{
     /* color: #1e90ff; */
 }
 
+.btn{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
 .title{
     /* font-family: 'Warsaw Gothic'; */
     /* font-family: 'Fundamental Rush'; */
