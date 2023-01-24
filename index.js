@@ -3,7 +3,8 @@ consoleText(['product designer.', 'ux designer.', 'ux researcher.', 'creative th
 consoleText(['product designer.', 'ux designer.', 'ux researcher.', 'creative thinker.'], 'text-2', 'console-2');
 
 function consoleText(words, id, param) {
-  var colors = ['#1e90ff'];
+  // var colors = ['#1e90ff'];
+  var colors = ['#3D7E97'];
   var visible = true;
   var con = document.getElementById(param);
   var letterCount = 1;

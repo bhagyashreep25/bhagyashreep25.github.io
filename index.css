@@ -7,7 +7,9 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
 
 nav{
     padding-top: 20px;
@@ -63,24 +65,28 @@ i{
     letter-spacing: 1px;
   }
   
-  #mobile-demo a:hover{
+#mobile-demo a:hover{
     color: black;
-  }
+}
 
-  #fix, .console-underscore{
-	font-family: 'DM Mono';
-  font-size: 3em;
+#fix, .console-underscore{
+	/* font-family: 'DM Mono'; */
+    font-family: 'Roboto Mono';
+    font-size: 40px;
 }
 #text-1, #text-2{
-	font-family: 'DM Mono';
-  font-size: 30px;
+	/* font-family: 'DM Mono'; */
+    font-family: 'Roboto Mono';
+    letter-spacing: -1px;
+    font-size: 40px;
 }
-  .console-underscore {
+.console-underscore {
     display:inline-block;
-   position:relative;
-   top:-0.14em;
-   /* left:10px; */
-   color: dodgerblue;
+    position:relative;
+    /* top:-0.14em; */
+    /* left:10px; */
+    /* color: dodgerblue; */
+    color: #3D7E97;
  }
 
 .space{
@@ -130,8 +136,9 @@ i{
 .heading{
     font-family: 'Inter';
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 600;
     /* color: #1e90ff; */
+    color: #3D7E97;
 }
 
 .btn{
@@ -151,16 +158,59 @@ i{
     color: #6d6d6d;
 }
 
+.title-bold{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #6d6d6d;
+}
+
+.homepage-title{
+    font-family: 'Inter';
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: #6d6d6d;
+}
+
 .title-name{
     /* font-family: 'Warsaw Gothic'; */
     /* font-family: 'Fundamental Rush'; */
     /* font-family: 'Fraunces'; */
     /* font-family: 'DM Mono'; */
     font-family: 'Inter';
-    /* font-weight: bolder; */
     font-size: 35px;
     letter-spacing: -1px;
+    color: #252525;
 }
+
+.title-name-bold{
+    /* font-family: 'Warsaw Gothic'; */
+    /* font-family: 'Fundamental Rush'; */
+    /* font-family: 'Fraunces'; */
+    /* font-family: 'DM Mono'; */
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: -1px;
+    color: #252525;
+}
+
+
+.homepage-name{
+    font-family: 'Inter';
+    font-size: 70px;
+    letter-spacing: -1px;
+}
+
+.container .homepage-about{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Inter';
+    color: #5d5d5d;
+    letter-spacing: 0px;
+}
+
 
 .box-text{
     font-family: 'Inter';
@@ -170,6 +220,7 @@ i{
 .design-ideas-title{
     font-family: 'Inter';
     font-size: 20px;
+    font-weight: 500;
 }
 
 .design-ideas-text{
