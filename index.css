@@ -102,6 +102,18 @@ i{
     height: 90px;
 }
 
+#buttons .btn.active {
+    background-color: #488398;
+    color: #fff;
+}
+
+#buttons .btn {
+    background-color: #b2dff0;
+    color: #000;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
