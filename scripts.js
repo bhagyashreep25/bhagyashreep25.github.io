@@ -8,11 +8,9 @@ function filterObjects(c) {
         removeClass(x[i], "show");
         removeClass(x[i], "hide");
         if (x[i].className.indexOf(c) > -1) {
-          console.log(x[i].className.indexOf(c));
           addClass(x[i], "show");
         }
         else {
-          console.log("hide")
           x[i].className = x[i].className + (" hide")
         };
     }
