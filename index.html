@@ -20,7 +20,7 @@
 		<script type="text/javascript" src="js/materialize.min.js"></script>
     
 		<script src="index.js" async defer></script>
-		
+		<!-- <script src="fade.js"></script> -->
 		
 		<script>
 			$(document).ready(function(){
@@ -28,6 +28,7 @@
 				$('.button-collapse').sideNav();
   			});
 		</script>
+		
 
 		<!-- navbar -->
 			<div class="navbar container" id="navbar">
@@ -94,7 +95,8 @@
 				<button onclick="filterObjects('research')" class="btn z-depth-0">UX Research</button>
 			</span>
 		</div>
-		<div class="container projects">
+		<div class="container projects" id="projects">
+			<!-- <div class="container projects" id="projects" style="opacity: 0;"> -->
 			<div class="proj research visual interaction" style="text-align: center; padding-top: 5%;">
 				<a href="work/cool-school/"><img src="files/cool-school/cover.png" alt="" width="80%"></a>
 			</div>
@@ -169,6 +171,5 @@
 				</div>
 			</div>
 		</div>
-
 	</body>
 </html>

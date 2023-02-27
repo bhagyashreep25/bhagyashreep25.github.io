@@ -1,3 +1,7 @@
+
+// var opacity = 0;
+var intervalID = 0;
+window.onload = fadeIn;
 filterObjects("all");
 
 function filterObjects(c) {
@@ -14,6 +18,10 @@ function filterObjects(c) {
           x[i].className = x[i].className + (" hide")
         };
     }
+    console.log('here');
+
+  document.getElementById("projects").style.opacity = 0.1;
+    fadeIn();
 }
 
 function addClass(element, name) {
@@ -62,4 +70,23 @@ for (var i = 0; i < btns.length; i++) {
 //     }
 //   }
 // }
-  
+
+
+function fadeIn() {
+  console.log("inside fadeIn");
+  console.log(document.getElementById("projects").style.opacity);
+  setInterval(show, 200);
+}
+
+function show() {
+var body = document.getElementById("projects");
+opacity = Number(window.getComputedStyle(body)
+.getPropertyValue("opacity"));
+console.log(opacity);
+if (opacity < 1) {
+opacity = opacity + 0.15;
+body.style.opacity = opacity
+} else {
+clearInterval(intervalID);
+}
+}
