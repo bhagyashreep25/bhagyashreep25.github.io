@@ -10,6 +10,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('files/fonts/Neue-Machina/NeueMachina-Regular.otf');;
+}
 
 nav{
     padding-top: 20px;
@@ -78,8 +82,9 @@ i{
 #text-1, #text-2{
 	/* font-family: 'DM Mono'; */
     font-family: 'Roboto Mono';
+    /* font-style: italic; */
     letter-spacing: -1px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .console-underscore {
     display:inline-block;
@@ -91,7 +96,7 @@ i{
  }
 
 .space{
-	height: 140px;
+	height: 130px;
 }
 
 .space2{
@@ -181,7 +186,7 @@ i{
 
 .homepage-title{
     font-family: 'Inter';
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: -1px;
     color: #6d6d6d;
 }
@@ -212,19 +217,46 @@ i{
 
 .homepage-name{
     font-family: 'Inter';
-    font-size: 70px;
+    font-size: 40px;
     letter-spacing: -1px;
     font-weight: 500;
 }
 
+.background-highlight{
+    /* background: #b2dff0; */
+    width:fit-content;
+    display: inline-block;
+    background-color: #b2dff0;
+    transition: background-color 5s ease;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+}
+
+/* @keyframes text-highlight {
+    0% {background-color: none;}
+    100% {background-color: #b2dff0;}
+} */
+
 .container .homepage-about{
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
     font-family: 'Inter';
     color: #5d5d5d;
     letter-spacing: 0px;
 }
 
+.container .title-about{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Inter';
+    font-style: italic;
+    /* font-family: 'Fraunces'; */
+    /* font-family: 'NewsGoth BT'; */
+    color: #252525;
+    /* color: #000; */
+    letter-spacing: 0px;
+}
 
 .box-text{
     font-family: 'Inter';
@@ -441,16 +473,3 @@ i{
     /* bottom: 0; */
     display: table-cell;
 }
-
-/* .btn{
-    background-color: #000 !important;
-    border-radius: 20px !important;
-    box-shadow: 0px;
-    font-family: 'Fraunces';
-    font-size: 15px !important;
-    text-transform: unset !important;
-    height: 45px !important;
-    width: 180px !important;
-    text-align: center;
-    vertical-align: middle !important;
-} */
